@@ -1,0 +1,506 @@
+body {
+background: url(images/top_bg1.png) no-repeat 0 0 fixed ;
+background-size: cover;
+font-family: 'Kdam Thmor Pro', sans-serif;
+font-family: 'Noto Sans TC', sans-serif;
+}
+/* ------------------header----------------------- */
+
+.navbox-bg {
+    width: 100%;
+    background-color:#2c2c2c;
+    height: 80px;
+    position: fixed;
+    top: 0;
+    margin: auto;
+}
+
+.navbar{
+    /* background-color: antiquewhite; */
+    width: 60%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    line-height: 80px;
+    }
+header .navbox1 img {
+    width: 450px;
+    padding: 20px 0;
+}
+.navbox2  a {
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 80px;
+    padding:0px 15px ;
+
+}
+.navbox2 img {
+    padding-top: 15px;
+    /* background-color: antiquewhite; */
+}
+.navbox2 .signup{
+    padding: 5px 20px ;
+    background-color: #e95550;
+    border-radius: 20px;
+}
+.navbox2 a.signup:hover{
+    background-color: #2c2c2c;
+}
+/* ------------------content1----------------------- */
+.content1 {
+    margin: auto;
+    text-align: center;
+}
+.content1-bg{
+    /* background-color: #2bb2ce; */
+    width: 60%;
+    margin: auto;
+}
+.content1 img {
+    width: 100%;
+    margin-top: 100px;
+}
+.content1 p {
+    background-color: #ffffff;
+    width: 80%;
+    text-align: center;
+    margin: auto;
+    padding: 15px 0;
+    border-radius: 100px;
+    font-size: 25px;
+    color: #e95550;
+    border: #e95550 solid 3px;
+    margin-bottom: 150px;
+    line-height: 30px;
+}
+/* ------------------content2----------------------- */
+.content2 p {
+    background:linear-gradient( to left, #e95550, #9b595600);
+    font-size: 1.8em;
+    color: #ffffff;
+    text-align: center;
+    width: 100%;
+    padding: 20px ;
+    margin-bottom: 50px;
+}
+/* ------------------content3 3大重點學習----------------------- */
+.content3 .st1{
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 50px;
+}
+.st1 img{
+    width: 30%;
+}
+.content3 p {
+    font-size: 2.5em;
+    text-align: center;
+    margin-bottom: 20px;
+    color: white;
+    font-weight: 700;
+}
+.content3-bg{
+    width: 55%;
+    margin: auto;
+}
+.content3-bigbg {
+    background:linear-gradient(rgba(190, 190, 190, 0), rgb(15, 15, 15));
+    padding-bottom: 40px;
+    
+}
+/* ------------------content4----------------------- */
+.content4 {
+    width: 100%;
+    margin: auto;
+    /* height: 300px; */
+}
+.content4-bg{
+    /* background-color: #2bb2ce; */
+    width: 50%;
+    margin: auto
+}
+.content4 .wordblue {
+    text-align: center;
+    margin: 30px 0 0;
+    font-size: 35px;
+    color: #2bb2ce;
+    font-weight: 700;
+    }
+.content4 p {
+        text-align: center;
+        font-size: 35px;
+        color: rgb(255, 255, 255);
+        margin-bottom: 10px;
+ }
+.content4 img{
+    width: 100%;
+    margin: 10px 0 30px;
+}
+/* ------------------content5 超實用５大開發表單最佳應用情境----------------------- */
+.content5 {
+    width: 100%;
+    /* margin: 80px 0 ; */
+    background-color: #01356fcc;
+    text-align: center;
+    padding-bottom: 50px;
+}
+.content5 p {
+    text-align: center;
+    font-size: 40px;
+    color: white;
+    padding: 40px;
+    font-weight: 700;
+}
+.content5 img {
+    width: 60%;
+    margin: auto;
+}
+.content5 .tent51 {
+    font-size: 30px;
+    line-height: 35px;
+    padding: 10px;
+}
+.content5 .nc{
+    display: block;
+    text-align: center;
+    margin: 40px;
+}
+
+.content5 a.signup {
+    padding: 10px 30px ;
+    background-color: #e95550;
+    border-radius: 30px;
+    text-decoration: none;
+    color: #ffffff;
+    font-size: 1.5em;     
+}
+.content5 a.signup:hover {
+    background-color: #030303;
+    }
+    /* ------------------content6 精采議程----------------------- */
+.content6big-bg{
+    background: #232323c9;
+    padding: 10PX ;
+    
+}
+    .content6-bg{
+    width: 60%;
+    margin: auto;
+}
+    .manbox {
+    /* background-color: rgb(238, 194, 194);  */
+    margin-bottom: 50px;   
+    display: flex;
+    justify-content:space-between;
+    width: 100%;
+}
+.agenda {
+    text-align: center;
+    font-size: 45px;
+    color: rgb(255, 255, 255);
+    margin: 30px;
+    /* line-height: 1.2em; */
+}
+.manbox .manbox-left {
+    font-size: 25px;
+    color: rgb(255, 255, 255);
+    margin: 30px;
+    line-height: 1.6em;  
+}
+.manbox span{
+    color: #ffffff;
+    font-size: 42px;
+}
+.manbox-title {
+    background-color: rgba(33, 175, 180, 0.83);
+    font-size: 32px;
+    padding: 10px;
+    margin: 5px;
+}
+.manbox-right img {
+    width: 300px;
+}
+
+/* ------------------speaker----------------------- */
+.manbox-right {
+    text-align: right;
+    /* background-color: #000000bf; */
+}
+.speaker-name{
+    /* background-color: #0000004d; */
+    background:linear-gradient( to left, rgb(24, 13, 13), rgba(255, 255, 255, 0));
+    font-size: 30px;
+    padding: 10px;
+    color: #d3b683;
+}
+.speaker-introduce {
+    /* background-color: #0000005b; */
+    background:linear-gradient( to left, rgb(24, 13, 13), rgba(255, 255, 255, 0));
+    font-size: 15px;
+    padding: 10px;
+    color: #ffffff;
+    margin: 5px 0 20px;
+}
+.resume {
+    background-color: #e95550;
+    font-size: 12px;
+    padding: 10px;
+    color: #ffffff;
+    border-radius: 10px;
+    text-decoration: none;
+}
+a.resume:hover{
+    background-color: black;
+}
+/* -------------content7---------------------------- */
+.content7 {
+    background-color: #d3b683;
+    margin: auto;
+    padding-bottom: 30px;
+}
+.course {
+    display: flex;
+    justify-content: space-between; 
+    /* background-color: black; */
+    width: 70%;
+    margin: auto;
+}
+.content7 .title {
+    text-align: center;
+    font-size: 45px;
+    color: black;
+    line-height: 1.2em;
+    padding: 40px 0 0;
+    font-weight: 700;
+
+}
+/* ------------activity------------*/
+.activity{
+    width: 50%;
+    margin: 40px;
+    /* background-color: #e95550; */
+}
+.activity a {
+    color: #007bff;
+
+}
+.course .h3-500 {
+    color: black;
+    font-size: 25px;
+    line-height: 30px;
+    padding: 20px;
+    font-weight: 700;
+}
+.place {
+    color: black;
+    font-size: 22px;
+    line-height: 30px;
+    padding: 20px;
+    font-weight:300;
+}
+.place span {
+    font-size: 32px;
+}
+.course .h5 {
+    color: black;
+    font-size: 18px;
+    line-height: 25px;
+    padding: 20px;
+}
+/* ------------fare------------*/
+.fare{
+    /* width: 50%; */
+    margin: 20px;
+    /* background-color: rgb(190, 155, 155); */
+}
+table{
+    /* margin: 10px 0; */
+    width: 100%;
+    /* height: 200px; */
+
+}
+.tableborder {
+    border-bottom: 1px solid #838282;
+    height: 150px;
+    font-weight: 500;
+    
+    
+}
+.tableborder2 {
+    height: 100px;
+    line-height: 100px;
+}
+.table .black{
+    font-size: 32px;
+    /* color: black; */
+    font-weight: 900;
+}
+.table .small {
+    font-size: 16px;
+    font-weight: 300
+    ;
+}
+.table1 {
+    background-color: #e95550;
+    color: white;
+    padding: 10px;
+    font-size: 20px;
+    text-align: center;
+    padding: 20px 0 ;
+    width: 25%;
+    vertical-align: middle;
+}
+.table2 {
+    background-color: #f38f8c;
+    color: white;
+    padding: 10px;
+    font-size: 20px;
+    text-align: center;
+    width: 25%;
+    vertical-align: middle;
+}
+.table3 {
+    background-color: #ffffff;
+    color: black;
+    padding: 10px;
+    font-size: 20px;
+    text-align: center;
+    width: 25%;
+    vertical-align: middle;
+}
+.table4 {
+    background-color: #d8cece;
+    color: black;
+    padding: 10px;
+    font-size: 20px;
+    text-align: center;
+    width: 25%;
+    vertical-align: middle;
+}
+/*  */
+.content7 .nc {
+    display: block;
+    text-align: center;
+    margin: 40px;
+    
+}
+.content7 a.signup {
+    padding: 10px 30px ;
+    background-color: #e95550;
+    border-radius: 30px;
+    text-decoration: none;
+    color: #ffffff;
+    font-size: 1.5em;     
+}
+.content7 a.signup:hover {
+    background-color: #030303;
+    }
+/* -------------content8--------------------- */
+.content8 {
+    background-color: #ffffff;
+    padding: 40px;
+    text-align: center;
+}
+.content8 a img {
+    width: 70%;
+}
+/* -------------content9--------------------- */
+.content9 {
+    width: 100%;
+    /* background-color: #e6e6e6; */
+    background:linear-gradient(rgb(190, 190, 190), rgb(255, 255, 255));
+    margin: auto;
+
+}
+.extend {
+    width: 70%;
+    margin: auto;
+
+}
+.read {
+    display: flex;
+    justify-content: space-around;
+}
+
+.content9 .title {
+    text-align: center;
+    font-size: 45px;
+    color: black;
+    line-height: 1.2em;
+    font-weight: 700;
+    padding: 50px 0 20px;
+
+}
+.read a {
+    text-decoration: none;
+    color: black;
+    padding-top: 10px;
+    line-height: 22px;
+    text-decoration: none;
+    text-align: justify;
+}
+.pic {
+    margin: 10px;
+    width: 100%;
+}
+.pic-point img {
+    width: 100%;
+    height: 200px;
+    border: 1px solid black;
+    object-fit: cover;    
+}
+.problem {
+    /* background-color: #007bff; */
+    padding-bottom: 50px;
+}
+.Q {
+    width: 70%;
+    text-align: left;
+    margin: auto;
+    /* background-color: #d3b683; */
+}
+.Q h2 {
+    font-size: 25px;
+    line-height: 30px;
+    padding: 5px;
+}
+.Q p {
+    font-size: 16px;
+    line-height: 20px;
+    padding: 5px;
+}
+.Q-box {
+    padding: 10px;
+}
+.Q span{
+    color: #d3b683;
+}
+/* ------content10 footer--------- */
+.content10 {
+    background-color: black;
+}
+.tel {
+    padding: 20px;
+}
+.tel p {
+    color: #ffffff;
+    text-align: center;
+    /* font-size: 12px; */
+    line-height: 20px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
